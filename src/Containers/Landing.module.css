@@ -1,0 +1,93 @@
+.maindiv{
+    background-image: linear-gradient( 130deg, rgba(94, 252, 232, .1) 0%, rgba(255,255,255,.1) 100%),url("../Resources/Images/chartillustration.svg");
+    background-position:right bottom;
+    background-repeat: no-repeat;
+    position:relative;
+    height:100vh;
+  
+}
+.logocol{
+    
+    color:black;
+}
+.contentcontainer{
+    display: flex;
+    height:90%;
+}
+.login{
+/*Fix for keeping navitems close*/
+text-align: end;
+}
+
+.mainrow{
+    align-items: center;
+}
+
+.firstcol{
+}
+.stock_illustration{
+    max-width: 100%;   
+}
+.heading{
+    color:#5efce8;   
+}
+
+.navrow{
+    
+}
+.navrow a{
+    background-color:; 
+    border:2px solid #5EFCE8;
+    color:black;
+    padding:5px 10px;
+    text-decoration: none!important;
+    border-radius:20px;
+}
+
+
+
+.navbarcontainer{
+    text-align: start;
+    color:white;
+    padding: 10px;
+    background-color:#fff;
+    -webkit-box-shadow: -1px 27px 26px -20px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 27px 26px -20px rgba(0,0,0,0.75);
+    box-shadow: -1px 27px 26px -20px rgba(0,0,0,0.75);
+}
+
+
+.navbar{
+
+}
+.paralogin{
+margin-top:20px;
+font-size:10px;
+}
+.signup a{
+}
+
+        /*Responsive*/
+@media(max-height:600px){
+    .heading{
+        font-size: 30px;
+    }
+    .mainrow{
+        margin-top:30px;
+    }
+    .para{
+        font-size: 12px;
+    }
+}
+@media(max-width:767px){
+    .navbarcontainer{
+       
+        padding-top: 5px;
+    }
+    .navrow a{
+        display:none;
+    }
+    .logocol{
+        
+    }
+}
