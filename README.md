@@ -6,7 +6,7 @@ This is a responsive react template made with [Create React App](https://github.
 #### Comes with Navigation.
 #### Includes navigation using react router.
 
-## Installed Libraries
+## Libraries Used
 
 * react bootstrap
 * react router
