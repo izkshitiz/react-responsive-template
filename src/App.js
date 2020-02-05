@@ -5,7 +5,8 @@ import classes from './App.module.css';
 import {BrowserRouter} from 'react-router-dom';
 
 class App extends Component {
-  render(){
+
+render(){
   return (
     <BrowserRouter>
     <React.Fragment>

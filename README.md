@@ -1,4 +1,4 @@
-This is a responsive react template made with [Create React App](https://github.com/facebook/create-react-app).
+This is a responsive react template made using bare minimum. It will help you get started with react web app in no time.
 
 ## Available Features
 

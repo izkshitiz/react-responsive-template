@@ -1,11 +1,8 @@
 import React,{Component} from 'react';
-import {Container,Row,Col,Navbar,Nav,NavDropdown} from 'react-bootstrap';
-import stockillustration from '../Resources/Images/stockillustration.svg'
-import logo from "../Resources/Images/logo.svg";
+import {Container,Row,Col} from 'react-bootstrap';
+import stockillustration from '../Resources/Images/stockillustration.svg';
 import Emailsubmit from '../Components/UI/Emailsubmit/Emailsubmit';
 import classes from './Landing.module.css';
-
-let landingnavColor="tranparent";
 
 class Landing extends Component{
 

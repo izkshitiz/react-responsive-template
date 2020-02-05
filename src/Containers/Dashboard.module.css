@@ -1,0 +1,11 @@
+
+.contentcontainer{
+    display: flex;
+    height:90%;
+}
+
+
+.mainrow{
+    align-items: center;
+}
+
