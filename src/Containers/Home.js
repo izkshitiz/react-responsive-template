@@ -4,8 +4,8 @@ import {Route,Link} from 'react-router-dom';
 import {Container,Row,Col} from 'react-bootstrap';
 import Landing from './Landing';
 import Dashboard from './Dashboard';
+import About from '../Components/Aboutus';
 import logo from "../Resources/Images/logo.svg";
-
 class Home extends Component{
 render(){
 return(
@@ -23,12 +23,12 @@ return(
             </Col>
         </Row>
     </Container>
-
+    
     <Route path='/' exact render={() => <Landing/>} />
     <Route path='/dashboard' exact render={() => <Dashboard/>} />
+    <Route path='/about' exact render={() => <About/>} />
 
 {/* <Route path='/dash' exact render={() => <Dashboard/>} /> */}
-
 </div>
 );
 }

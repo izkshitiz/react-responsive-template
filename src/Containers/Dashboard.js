@@ -10,7 +10,6 @@ class Dashboard extends Component{
 
  
 render(){
-
 return(
 
 <Container className={classes.contentcontainer}>
@@ -20,7 +19,6 @@ return(
                 <div>
                   <p>Important stuff here !</p>
             </div>
-            
             </Row>
         </Col>    
         <Col md={6}>
