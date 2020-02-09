@@ -14,9 +14,9 @@ return(
         <div  className={classes.logocol} ><Link to=""><img src={logo} alt="companay-logo" width="30" height="30" /> <span>tradinghigh.local</span></Link></div>
         <div  className={classes.navlist}>
             <ul>
-                    <li><Link to="/about">About</Link></li>
-                    <li><Link to="/dashboard">Dashboard</Link></li>
-                    <li><Link to="/contact">Contact</Link></li>
+                <li><Link to="/about">About</Link></li>
+                <li><Link to="/dashboard">Dashboard</Link></li>
+                <li><Link to="/contact">Contact</Link></li>
             </ul>
         </div>
     </div>
