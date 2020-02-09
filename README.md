@@ -1,14 +1,13 @@
 This is a responsive react template made using bare minimum. It will help you get started with react web app in no time.
 
-## Available Features
+## Features
 
 #### Responsive for all screen sizes.
-#### Comes with Navigation.
-#### Includes navigation using react router.
+#### Comes with responsive navigation.
+#### Includes page navigation using react router.
 
 ## Libraries Used
 
-* react bootstrap
 * react router
 * react router dom
 
@@ -24,5 +23,5 @@ This is a responsive react template made using bare minimum. It will help you ge
 
 
 ## TO DO
-* Connect with Dashboard using router <br/>
-* Add side drawer to mobile.
+* Connect with Dashboard using router. :heavy_check_mark:<br/>
+* Add side drawer for mobile devices. :heavy_check_mark:
