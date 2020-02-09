@@ -1,70 +1,29 @@
-@font-face {
+@font-face 
+{
     font-family: 'montserrat-medium';
     src: local('montserrat-medium'), url(../Resources/fonts/Montserrat-Medium.ttf) format('truetype');
-  }
+}
 
-.Homemaindiv{
+.Container
+{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows:50px auto;
     height:100vh;
     background-image: linear-gradient( 130deg, rgba(94, 252, 232, .1) 0%, rgba(255,255,255,.1) 100%),url("../Resources/Images/chartillustration.svg");
     background-position:right bottom;
-    background-repeat: no-repeat;
+    background-repeat:no-repeat;
     background-attachment: fixed;
     font-family:'montserrat-medium';
 }
 
-.contentcontainer{
+
+.navbarcontainer
+{
+    grid-column: auto/span 12;
     display: flex;
-    height:90%;
-}
-
-.logocol{
-    align-self: center;
-}
-.logocol a{
-    text-decoration: none!important;
-    list-style:none;  
-    color:black;
-}
-
-.navlist {
-    align-self: center;
-}
-    
-
-.navlist ul{
-display: flex;
-flex-direction: row;
-margin:0 auto; /*clears bottom-margin UL items*/
-}
-
-.navlist ul li{
-margin-right:10px;
-}
-
-.navlist a{
-    font-size:14px;
-    text-transform: uppercase;
-    border-bottom:2px solid #5EFCE8;
-    color:black;
-    padding:5px 10px;
-    text-decoration:none!important;
-    border-radius:20px;
-}
-
-.mainrow{
+    justify-content: space-evenly;
     align-items: center;
-}
-
-.stock_illustration{
-    max-width: 100%;   
-}
-
-.heading{
-    color:#5efce8;   
-}
-
-.navbarcontainer{
-    text-align: start;
     color:white;
     padding: 10px;
     background-color:#fff;
@@ -74,23 +33,60 @@ margin-right:10px;
 }
 
 
+.logocol a
+{
+    text-decoration: none!important;
+    list-style:none;  
+    color:black;
+    outline:none;
+}
 
-        /*Responsive*/
+.navlist {    
+    grid-column: 10 / span 1;
+}
+    
+
+.navlist ul
+{
+    display: flex;
+    flex-direction: row;
+    margin:0 auto; /*clears bottom-margin UL items*/
+}
+
+.navlist ul li
+{
+    text-decoration: none;
+    margin-right:10px;
+}
+
+.navlist a
+{
+    font-size:14px;
+    text-transform: uppercase;
+    border-bottom:2px solid #5EFCE8;
+    color:black;
+    padding:5px 10px;
+    text-decoration:none!important;
+    border-radius:20px;
+    outline:none;
+}
+
+
+.contentcontainer{
+    grid-column: auto /span 12;
+    display: grid;
+    
+} 
+
+
+/*Responsive*/
 @media(max-height:600px){
     .heading{
         font-size: 30px;
     }
-    .mainrow{
-        margin-top:30px;
-    }
-    .para{
-        font-size: 12px;
-    }
+   
 }
-@media(max-width:992px){
-    .navbarcontainer{
-        padding-top: 5px;
-    }
+@media(max-width:767px){
     .navlist{
         display:none;
     }

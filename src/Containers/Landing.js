@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import {Container,Row,Col} from 'react-bootstrap';
+// import {Container,Row,Col} from 'react-bootstrap';
 import stockillustration from '../Resources/Images/stockillustration.svg';
 import Emailsubmit from '../Components/UI/Emailsubmit/Emailsubmit';
 import classes from './Landing.module.css';
@@ -8,41 +8,29 @@ class Landing extends Component{
 
 render(){
 return(
-<Container className={classes.contentcontainer}>
-
-        <Row  className={classes.mainrow}>
-          <Col className={classes.firstcol} md={6}>
-            <Row>
-            <Col>
-            <h1 className={classes.heading}>Learn to trade stocks and cryptocurrency</h1>
-            </Col>
-            </Row>
+<div className={classes.contentwrapper}>
+  <div className={classes.firstcol}>
+    <div>
+      <h1 className={classes.heading}>Learn to trade stocks and cryptocurrency</h1> 
+     </div>
             
-            <Row>
-            <Col>
-            <p className={classes.para}>all while playing a game.</p>
-            </Col>
-            </Row>
+    <div>
+      <p className={classes.para}>all while playing a game.</p>        
+    </div>
 
-            <Row>
-            <Col>
-            <Emailsubmit/>
-            </Col>
-            </Row>
+    <div className={classes.emailbox}>
+      <Emailsubmit/>
+    </div>
              
-            <Row className={classes.paralogin}>
-            <Col>
-            <p>Or <a href="#">Signin</a> / <a href="#">Signup</a> Using partner sites</p>
-            </Col>
-            </Row>
-            
-        </Col>
+    <div className={classes.paralogin}>
+      <p>Or <a href="#">Signin</a> / <a href="#">Signup</a> Using partner sites</p>
+    </div>        
+  </div>
 
-            <Col md={6}>
-           <img className={classes.stock_illustration} src={stockillustration} alt="trading illustration"></img>
-                </Col>
-        </Row>
-      </Container>
+  <div className={classes.secondcol}>
+    <img className={classes.stock_illustration} src={stockillustration} alt="trading illustration"></img>
+  </div>
+</div>
 
 );
 }
