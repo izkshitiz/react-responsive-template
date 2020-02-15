@@ -15,11 +15,10 @@ This is a responsive react template made using bare minimum. It will help you ge
 
 ![Trading App Desktop Screen](https://raw.githubusercontent.com/th3knigh7/react-responsive-templates/master/public/screenshots/desktop%20screen%20trading.png)
 
-![Trading App Mobile Screen](https://raw.githubusercontent.com/th3knigh7/react-responsive-templates/master/public/screenshots/mobile%20screen%20trading.png)
+![Trading App Mobile Screen](https://raw.githubusercontent.com/th3knigh7/react-responsive-template/master/public/screenshots/react%20mobile.PNG)
 
 ![Health App Desktop Screen](https://raw.githubusercontent.com/th3knigh7/react-responsive-templates/master/public/screenshots/desktop%20screen%20health.png)
 
-![Health App Mobile Screen](https://raw.githubusercontent.com/th3knigh7/react-responsive-templates/master/public/screenshots/mobile%20screen%20health.png)
 
 
 ## TO DO

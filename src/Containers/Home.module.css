@@ -103,7 +103,7 @@ font-size: 30px;
 
 .navlist ul li
 {
- 
+    list-style-type:none;
     margin-right:10px;
 }
 
